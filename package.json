@@ -1,0 +1,15 @@
+{
+  "name": "core-nodejs-packages",
+  "version": "1.0.0",
+  "description": "Implementation of core nodejs packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc -w & nodemon -q -w build build/index.js"
+  },
+  "author": "Suyash Purwar",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
